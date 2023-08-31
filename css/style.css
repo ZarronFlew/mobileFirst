@@ -1,0 +1,440 @@
+
+
+        .has-error input {
+            border-width: 2px;
+        }
+
+        .cls-error {
+            border: 1px solid #F00;
+        }
+
+        .validation.text-danger:after {
+            content: "";
+        }
+   body {
+        background-color: #EFEFEF;
+    }
+
+    .ext_terms_cls span.span_card_terms_checkbox_label {
+        margin-top: 10px !important;
+        margin-bottom: 10px;
+        display: table;
+        width: auto;
+        float: left;
+    }
+
+    .card_terms_checkbox_label {
+        float: left;
+        width: auto;
+    }
+
+    .checkbox_popup_text_cls * {
+        color: inherit;
+        background-color: inherit;
+    }
+
+    .vocher_point1, div.vocher_point1, div#voucher_pointid {
+        display: none;
+    }
+
+    .hide_signups, div.hide_signups {
+        display: none;
+    }
+
+    span#voc_code, #voc_code {
+        display: none;
+    }  
+        #fancybox-content div#card_ext_terms_cond_desc_id, #card_ext_terms_cond_desc_id {
+            text-align: left;
+        }
+
+        .cls_cvv {
+            width: 100%;
+        }
+
+        a.cvvTooltip {
+            outline: none;
+        }
+
+        a.cvvTooltip strong {
+            line-height: 30px;
+        }
+
+        a.cvvTooltip:hover {
+            text-decoration: none;
+        }
+
+        a.cvvTooltip span {
+            z-index: 10;
+            display: none;
+            padding: 14px 20px;
+            margin-top: -30px;
+            margin-left: 5px;
+            max-width: 70%;
+            width: 250px;
+            line-height: 16px;
+            min-height: 90px;
+        }
+
+        a.cvvTooltip:hover span {
+            display: inline;
+            position: absolute;
+            color: #111;
+            border: 1px solid #DCA;
+            background: #fffAF0;
+        }
+
+        .callout {
+            z-index: 20;
+            position: absolute;
+            top: 45%;
+            border: 0;
+            left: -12px;
+        }
+
+        /*CSS3 extras*/
+        a.cvvTooltip span {
+            border-radius: 4px;
+            box-shadow: 5px 5px 8px #CCC;
+        }
+
+        #idmbCallout {
+            display: none;
+        }
+
+        @media only screen and (max-width: 900px) {
+            a.cvvTooltip {
+                outline: none;
+            }
+
+            a.cvvTooltip strong {
+                line-height: 30px;
+            }
+
+            a.cvvTooltip:hover {
+                text-decoration: none;
+            }
+
+            a.cvvTooltip span {
+                z-index: 10;
+                display: none;
+                padding: 14px 20px;
+                margin-top: 42px;
+                margin-left: -200px;
+                max-width: 70%;
+                width: auto;
+                line-height: 16px;
+            }
+
+            a.cvvTooltip:hover span {
+                display: inline;
+                position: absolute;
+                border: 1px solid #DCA;
+                background: #fffAF0;
+                color: #111;
+            }
+
+            .callout {
+                z-index: 20;
+                position: absolute;
+                border: 0;
+                top: -12px;
+                left: 47%;
+            }
+
+            .cls_cvv {
+                width: 100%;
+            }
+
+            /*CSS3 extras*/
+            a.cvvTooltip span {
+                border-radius: 2px;
+                box-shadow: 0px 0px 8px 4px #666;
+                /*opacity: 0.8;*/
+            }
+
+            #idCallout {
+                display: none;
+            }
+
+            #idmbCallout {
+                display: table;
+            }
+        }
+
+        #userPleaseWait {
+            width: 100%;
+            height: 100%;
+            z-index: 1001;
+            text-align: center;
+        }
+
+        #userPleaseWait p {
+            text-align: center;
+            position: fixed;
+            top: 42%;
+            width: 100%;
+            z-index: 1001;
+            font-size: 18px;
+            color: #FFF;
+        }
+
+        #userPleaseWait p img {
+            margin-top: 12px;
+        }
+
+        #useroverlay {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            z-index: 8010;
+            background: url("../images/fancybox_overlay.png") repeat;
+        }
+
+        #payment-form {
+            margin: auto 15px;
+        }
+
+        #creditcardfields {
+            width: 100%;
+            margin: auto;
+            display: table;
+            max-width: 350px;
+        }
+
+        #creditcardfields button.submit {
+            float: left;
+        }
+
+        #creditcardfields input[type="text"], #creditcardfields input[type="password"], #creditcardfields select {
+            height: 35px;
+            padding: 0 12px;
+            padding-left: 10px;
+            display: block;
+            border-radius: 0px;
+            margin-bottom: 18px;
+            margin-top: 7px;
+            color: #7b7a7a;
+            border: 1px solid #c6c6c6;
+            background: none;
+            font: 16px/40px Tahoma, Geneva, sans-serif;
+            background-color: #FFF;
+        }
+
+        #creditcardfields select {
+            max-width: 280px;
+        }
+
+        #creditcardfields textarea {
+            padding: 0 12px;
+            padding-left: 10px;
+            display: block;
+            border-radius: 0px;
+            margin-bottom: 18px;
+            margin-top: 7px;
+            color: #7b7a7a;
+            border: 1px solid #c6c6c6;
+            background: none;
+            font: 16px/40px Tahoma, Geneva, sans-serif;
+            background-color: #FFF;
+        }
+
+        .cr_button_cls {
+            margin: auto;
+        }
+
+        .cr_button_cls button {
+            float: left;
+        }
+
+        #creditcardfields input[type="radio"], #creditcardfields input[type="checkbox"] {
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-color: #fff;
+            background-image: none;
+            background-origin: padding-box;
+            background-position: 0 0;
+            background-repeat: repeat;
+            background-size: auto auto;
+            border-bottom-color: #ccc;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-image-outset: 0 0 0 0;
+            border-image-repeat: stretch stretch;
+            border-image-slice: 100% 100% 100% 100%;
+            border-image-source: none;
+            border-image-width: 1 1 1 1;
+            border-left-color-ltr-source: physical;
+            border-left-color-rtl-source: physical;
+            border-left-color-value: #ccc;
+            border-left-style-ltr-source: physical;
+            border-left-style-rtl-source: physical;
+            border-left-style-value: solid;
+            border-left-width-ltr-source: physical;
+            border-left-width-rtl-source: physical;
+            border-left-width-value: 1px;
+            border-right-color-ltr-source: physical;
+            border-right-color-rtl-source: physical;
+            border-right-color-value: #ccc;
+            border-right-style-ltr-source: physical;
+            border-right-style-rtl-source: physical;
+            border-right-style-value: solid;
+            border-right-width-ltr-source: physical;
+            border-right-width-rtl-source: physical;
+            border-right-width-value: 1px;
+            border-top-color: #ccc;
+            border-top-style: solid;
+            border-top-width: 1px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: #888;
+            float: left;
+            height: auto;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 0;
+            width: auto;
+        }
+
+        #creditcardfields span.terms_checkbox_label, #creditcardfields span.span_card_terms_checkbox_label, span.card_terms_checkbox_label_null {
+            margin-top: 0px;
+            padding-top: 0px;
+            padding-bottom: 5px;
+            padding-bottom: 5px;
+            float: left;
+        }
+
+        span.span_card_terms_checkbox_label {
+            -x-system-font: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-size: 14px;
+            font-size-adjust: none;
+            font-stretch: normal;
+            font-style: normal;
+            font-synthesis: weight style;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-weight: normal;
+            line-height: 16px;
+            margin-left: 5px;
+            text-align: left;
+            width: 84%;
+        }
+
+        #card_terms_cond_desc_id, .checkbox_popup_text_cls {
+            text-align: left !important;
+        }
+
+        #fancybox-wrap {
+            padding: 0 !important;
+            margin: 0 !important;
+            min-width: 200px;
+            min-height: 70px;
+        }
+
+        #fancybox-content {
+            width: 99%;
+            min-width: 95%;
+            min-height: 70px;
+        }
+
+        #fancybox-bg-n, #fancybox-bg-n, #fancybox-bg-e {
+            background-image: none;
+        }
+
+        #fancybox-content div {
+            text-align: center;
+        }
+ 
+        #userWrap, #userWrap div, #creditcardfields, #creditcardfields div, #creditcardtext, #userPleaseWait {
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0 !important;
+        }
+
+        #creditcardtext h4 {
+            line-height: 4px;
+        }
+
+        #creditcardtext, #creditcardtext div, #creditcardfields, #creditcardfields div {
+            width: 100%;
+            display: block;
+        }
+
+        #expmonth, #expyear {
+            width: 48%;
+            float: left;
+        }
+
+        .payment-errors {
+            color: #F00;
+        }
+
+        #creditcardfields input.cls-error, #contact textarea.cls-error, #contact select.cls-error {
+            border: 1px solid #F00;
+        }
+
+        #creditcardfields textarea.cls-error, #creditcardfields .cls-error, #creditcardfields .cls-error {
+            border: 1px solid #F00;
+        }
+
+        #creditcardfields div.form-group .form-control, .banner-form .form-control {
+            background-color: #FFF;
+        }
+
+        .small_crds {
+            width: 48%;
+            float: left;
+        }
+
+        .ext_terms_cls {
+            margin-top: 10px !important;
+        }
+
+        .form-group a.cvvTooltip {
+            float: left;
+            margin-left: 5px;
+        }
+
+        .form-group {
+            display: block;
+            clear: both;
+        }
+
+        #cc-cvc, #login-form input[type=password] {
+            width: 50%;
+        }
+
+        #creditcardfields div.form-group {
+            width: 98% !important;
+        }
+
+        #creditcardfields div.small_crds, .small_crds, #cc-cvc {
+            width: 48% !important;
+            float: left;
+            clear: none;
+            display: inline-block;
+        }
+ 
+    

@@ -1,0 +1,440 @@
+/* #### bootstrap Form #### */
+#contact, #payment-form {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    /*background: #FFF;*/
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*color: #888;
+    border:0px solid #DDD;   */
+}
+#contact h1 {
+    font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+#contact h1>span {
+    display: block;
+    font-size: 11px;
+}
+#contact label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+#contact label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+#contact input[type="text"], #contact input[type="email"], #contact textarea, #contact select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 35px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    font-size:14px;
+    padding:7px 0px 5px 5px;
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background:#FFF;
+}
+#contact br{width:100%;display:block;height:auto;}
+#contact input[type="radio"], #contact input[type="checkbox"]
+{
+    border: 1px solid #CCC;
+    color: #888;
+    margin:0;
+    padding:0;
+    width: auto;
+    height:auto;
+    float:left;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background:#FFF;
+}
+#contact .required.error{margin-bottom: 10px;border:1px solid #F00;}
+#contact  input.required.error, #contact  textarea.required.error,  #contact  select.required.error{
+    margin-bottom: 10px;
+    border:1px solid #F00;
+}
+#contact  input[type=checkbox].required.error, #contact  input[type=radio].required.error {
+    /*margin-bottom: 10px;*/
+    border:0px;
+    outline:1px solid #F00;
+}
+#contact label.error {margin-bottom: 10px;font-family: 'open sans';font-weight: normal;display:none !important;}
+#contact .checkbox_label{/*float:left;*/ margin-top:4px;}
+#contact .Radio_label{/*float:left;*/ margin-top:4px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    #contact .Radio_label{
+        float: left;
+        margin-top: 2px;
+        margin-left: 4px;
+        position: relative;
+        padding-left: 4px;
+    }
+}
+
+#contact .multipal_label{text-align:left;margin:2px;width:100%;}
+#contact select, #payment-form select {
+    /*background: #FFF url('down-arrow.png') no-repeat right;*/
+    background: #FFF;
+    /*appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;*/
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 100%;
+    height: 35px;
+    line-height:15px;
+}
+#contact textarea, #contact div#main textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 100%;
+}
+#contact .button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+#contact .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+.intro_box1 {
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    margin:5px;
+    padding:5px;
+    display:block;
+    width:100px;
+    height:37px;
+    background-color:#FFF;
+    color:#000 !important;
+    position:relative;
+    float:right;
+    margin-right:6px;
+    clear:both;
+    border:1px solid #CCC;
+}
+.intro_boxes1 { width:180px; }
+.intro_boxes { width:120px; }
+
+.brButtonR, .brFormR, .brTimerR{background-image:url("../images/round.png");}
+.brButtonS, .brFormS, .brTimerS{background-image:url("../images/sharp.png");}
+.brButtonS, .brButtonR, .brFormS, .brFormR, .brTimerS, .brTimerR{background-repeat:no-repeat;float:left;width:24px;height:24px;display:table;background-size:cover;border:none;opacity:0.3;cursor:pointer;margin:0px 3px;}
+.brButtonOpOn{opacity:1;}
+.brButtonOpOff{opacity:0.3;}
+.brButtonRound {-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;}
+.brButtonCorner{border-radius:0 !important;-webkit-border-radius:0 !important;}
+
+
+.intros2{float:left;}
+.intros2 img{margin-top:-5px;cursor:pointer;}
+.cp-custom-array1-target, .cp-custom-array2-target, .cp-custom-array3-target, .cp-custom-array4-target,
+.cp-custom-array5-target, .cp-custom-array6-target, .cp-custom-array7-target, .cp-custom-array8-target,
+.cp-custom-array9-target, .cp-custom-array10-target, .cp-custom-array11-target, .cp-custom-array12-target,
+.cp-custom-array13-target, .cp-custom-array14-target, .cp-custom-array15-target, .cp-custom-array16-target,
+.product-custom
+{
+    width:50px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    display: inline-block;
+    height:25px;
+    cursor:pointer;
+    border:1px solid #CCC;
+    background-image: url(../images/button-gradient.png);
+    background-repeat: no-repeat;
+    background-position: 99% 0;
+    float:right;
+}
+.advoch { width:129px !important;}
+span#voc_code, div.vocher_point1, .vocher_point1 {display:block;margin: auto; width: 100%; text-align: center; clear:both; }
+.hide_signups, div.hide_signups {margin:0 !important;padding:0 !important; border:0 !important; width:100% !important; clear:both;}
+div.forms_class, .forms_class, .hide_signups, div.hide_signups { text-align:center;}
+div.hide_signups h2, div.hide_signups p {text-align: center;}
+
+#frm_delete {display:table; border:0 !important; width: 100%;}
+div.form-btn {display:block; clear:both;}
+/*div.landing_form{background:#FFF;}*/
+#contact .Radio_label, #contact Span.Radio_label, Span.Radio_label {
+    display: block;
+    text-align: left;
+    margin-top:2px;
+    float:none;
+}
+#fbModLike, #fbMod1{
+    margin-top:8px;
+}
+
+span.terms_checkbox_label, span.card_terms_checkbox_label { padding-left:3px; }
+
+@media screen and (max-width: 580px) {
+    input[type=checkbox], input[type=radio] {
+        /* Double-sized Checkboxes */
+        -ms-transform: scale(1.4); /* IE */
+        -moz-transform: scale(1.4); /* FF */
+        -webkit-transform: scale(1.4); /* Safari and Chrome */
+        -o-transform: scale(1.4); /* Opera */
+        padding:3px;
+    }
+    span.terms_checkbox_label, span.card_terms_checkbox_label { padding-left:5px; }
+}
+
+#contact button.btn {
+    height: 50px;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #E1E1E1;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #000;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+#contact table.radioTabl{width:100%;border:none;clear:both;margin-top:2px;margin-bottom:5px;}
+#contact td.radioTabl1{vertical-align:top;width:20px;padding-left:5px;}
+#contact td.radioTabl2{vertical-align:top;text-align:left;}
+#contact table.checkTabl{width:100%;border:none;clear:both;margin-top:2px;margin-bottom:5px;}
+#contact td.checkTabl1{vertical-align:top;width:30px;padding-left:5px;}
+#contact td.checkTabl2{vertical-align:top;text-align:left;}
+#contact button.fcbk-button {
+    min-height:40px;
+    margin:0;
+    padding:0 12px;
+    vertical-align: middle;
+    background:#0000FF;
+    border:0;
+    font-family:'Roboto', sans-serif;
+    font-size:16px;
+    font-weight:300;
+    line-height:50px;
+    color: #FFF;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    text-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+#contact div.buttonParent { clear:both; display:block; }
+
+#contact button.btn:hover {
+    opacity: 0.6;
+    color: #fff;
+}
+
+#contact button.btn:active {
+    outline: 0;
+    opacity: 0.6;
+    color: #fff;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#contact button.btn:focus {
+    outline: 0;
+    opacity: 0.6;
+    background: #26A69A;
+    color: #fff;
+}
+
+#contact button.btn:active:focus,
+#contact button.btn.active:focus {
+    outline: 0;
+    opacity: 0.6;
+    /*background: #E1E1E1;
+    color: #fff;*/
+}
+
+#contact button.btn {
+    min-width: 105px;
+    width:auto;
+    margin:2px 0;
+}
+
+form#contact .error,
+form#contact .error {
+    border-color: #d03e3e;
+    color: #d03e3e;
+}
+
+#contact fieldset, fieldset {
+    display: none;
+    border:none;
+}
+
+.btn, .btn-next, #contact button.btn-next, #contact button.submit { float:right; }
+.btn-previous, #contact button.btn-previous { float:left; }
+
+@media (max-width: 560px) {
+    #contact button.btn-next, #contact button.submit, #contact button.btn-previous { width:100%; clear:both; }
+}
+
+img.leadclickCls, .leadclickCls { display:none !important; }
+
+.brButtonCorner, #contact button.brButtonCorner, section#intro .order-form button.brButtonCorner {
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
+span.formMsgs { display:none; }
+span.errorMsgs { display:block;clear:both;color:#F00;min-height:20px;width:100%;font-size:14px;text-align:left;margin:0 auto; }
+
+#formPleaseWait {width:100%;height:100%;z-index:1001;text-align:center;}
+#formPleaseWait p{text-align:center;position:fixed;top:42%;width:100%;z-index: 1001;font-size:18px;color:#FFF;}
+#formPleaseWait p img { margin-top:12px;}
+#formOverlay{position:fixed;top: 0;right: 0;bottom: 0;left: 0;height: 100%;width: 100%;margin: 0;padding: 0;z-index: 8010;background: url("../images/fancybox_overlay.png") repeat;}
+.fcbk-button{cursor:pointer;}
+#contact .lock_class,#contact input[type="text"].lock_class, #contact input[type="email"].lock_class, #contact textarea.lock_class, #contact select.lock_class{background-image:url(../images/lock_icon.png) !important;background-size:16px 20px;background-repeat:no-repeat !important;background-position:95% 50%;}
+.pulse{-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:pulse;animation-name:pulse;}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(.95);
+        opacity: 0.9
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1
+    }
+    100% {
+        -webkit-transform: scale(.95);
+        opacity: 0.9
+    }
+}
+
+/* New custom fonts */
+@font-face {font-family: "AndaleMono";
+
+    src: url(../fonts/AndaleMonoV1.eot); /* IE */
+
+    src:url("../fonts/AndaleMonoV1.ttf") format("truetype"); /*non-IE*/
+
+}
+@font-face {font-family: "Book Antiqua";
+
+    src: url(../fonts/BookAntiqua.eot); /* IE */
+
+    src:url("../fonts/Book%20Antiqua.ttf") format("truetype"); /*non-IE*/
+
+}
+
+@font-face {font-family:"Lora";
+    src:url("../fonts/Lora-Regular.eot") format("eot"),
+    url("../fonts/Lora-Regular.ttf") format("truetype")
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Arvo";
+    src:url("../fonts/Arvo-Regular.eot") format("eot"),
+    url("../fonts/Arvo-Regular.ttf") format("truetype")
+;font-weight:normal;font-style:normal;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Roboto Regular";
+    src:url("../fonts/Roboto-Regular.eot") format("eot"),
+    url("../fonts/Roboto-Regular.ttf") format("truetype");font-weight:normal;font-style:normal;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"PlayfairDisplay";
+    src:url("../fonts/PlayfairDisplay-Regular.eot") format("eot"),
+    url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype")
+;font-weight:normal;font-style:normal;
+}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Open Sans";
+    src:url("../fonts/OpenSans-Regular.eot") format("eot"),
+    url("../fonts/OpenSans-Regular.ttf") format("truetype")
+;font-weight:normal;font-style:normal;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Noticia Text";
+    src:url("../fonts/NoticiaText-Regular.eot") format("eot"),
+    url("../fonts/NoticiaText-Regular.ttf") format("truetype")
+;font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"MerriweatherSans";
+    src:url("../fonts/MerriweatherSans-Regular.eot") format("eot"),
+    url("../fonts/MerriweatherSans-Regular.ttf") format("truetype")
+;font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Merriweather";
+    src:url("../fonts/Merriweather-Regular.eot") format("eot"),
+
+    url("../fonts/Merriweather-Regular.ttf") format("truetype");
+    font-weight:normal;font-style:normal;
+}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Terminal";
+    src:url("../fonts/terminal.eot") format("eot")
+    ,url("../fonts/terminal.ttf") format("truetype")
+;font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"symbol";
+    src:url("../fonts/symbol.eot") format("eot"),
+    url("../fonts/symbol.ttf") format("truetype")
+;font-weight:normal;font-style:normal;}
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Impacted";
+    src:url("../fonts/IMPACTED.eot") format("eot"),
+    url("../fonts/IMPACTED.ttf") format("truetype")
+;font-weight:normal;font-style:normal;}
+
+@font-face {
+    font-family: 'ArialBlack';
+    src: url('../fonts/ArialBlack.eot'),
+    url('../fonts/ArialBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
